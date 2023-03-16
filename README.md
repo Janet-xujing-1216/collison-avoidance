@@ -60,7 +60,7 @@ python test.py --policy actenvcarl --test_policy_flag 5 --multi_process self_att
 ```
 3. Run policy for one episode and visualize the result.
 ```
-python test.py --policy actenvcarl --test_policy_flag 5 --multi_process self_attention --agent_timestep 0.4 --human_timestep 0.5 --reward_increment 2.0 --position_variance 2.0  --direction_variance 2.0 --model_dir data/output --phase test --visualize --test_case 0 --video_file data/output/vedio.mp4
+python test.py --policy actenvcarl --test_policy_flag 5 --multi_process self_attention --agent_timestep 0.4 --human_timestep 0.5 --reward_increment 2.0 --position_variance 2.0  --direction_variance 2.0 --model_dir data/output --phase test --visualize --test_case 0 
 ```
 4. Visualize a test case.(like 3)
 ```
