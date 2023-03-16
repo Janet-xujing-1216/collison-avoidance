@@ -58,15 +58,12 @@ python train.py --policy actenvcarl --test_policy_flag 5 --multi_process self_at
 ```
 python test.py --policy actenvcarl --test_policy_flag 5 --multi_process self_attention --agent_timestep 0.4 --human_timestep 0.5 --reward_increment 2.0 --position_variance 2.0  --direction_variance 2.0 --model_dir data/output
 ```
-3. Run policy for one episode and visualize the result.
+3. Run policy for one episode and visualize the result(a test case).
 ```
 python test.py --policy actenvcarl --test_policy_flag 5 --multi_process self_attention --agent_timestep 0.4 --human_timestep 0.5 --reward_increment 2.0 --position_variance 2.0  --direction_variance 2.0 --model_dir data/output --phase test --visualize --test_case 0 
 ```
-4. Visualize a test case.(like 3)
-```
-python test.py --policy actenvcarl --test_policy_flag 5 --multi_process self_attention --agent_timestep 0.4 --human_timestep 0.5 --reward_increment 2.0 --position_variance 2.0  --direction_variance 2.0 --model_dir data/output --phase test --visualize --test_case 0
-```
-5. Plot training curve.
+
+4. Plot training curve.
 ```
 python utils/plot.py data/output/output.log
 ```
