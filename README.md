@@ -65,7 +65,7 @@ python test.py --policy actenvcarl --test_policy_flag 5 --multi_process self_att
 
 4. Plot training curve.
 ```
-python utils/plot.py data/output/output.log
+python utils/plot.py data2/actenvcarl_alltf/output.log
 ```
 
 
